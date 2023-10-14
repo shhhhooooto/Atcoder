@@ -1,8 +1,5 @@
 /*
-JetとQGPの複数散乱を記述するプログラム
-!時間で区切るプログラム（素片から粒子が出ないようにする。）
-一度夏休みに入った&Githubを導入したので添削を行
-→8/19完成
+JetとQGPの複数散乱を記述するプログラム。を元にしたstochastic method
 
 *データ取得用
 g++ Fixed_no_exit.cpp GaussLaguerre.cxx  Function_for_col.cpp -o col.out
@@ -150,8 +147,6 @@ std::ofstream Etot_recoiled_QGP_1ev_out;
 
 std::ofstream theta_af_col;
 std::ofstream theta_final_ts_jet;//時間を止めた時のθ分布
-
-
 
 int main(){
 
